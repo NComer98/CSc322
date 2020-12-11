@@ -1,0 +1,6 @@
+install python first, from official site
+run these on CMD after installing python
+pip Django
+pip Pillow==6.2.0
+pip pytz==2018.4
+pip sqlparse==0.3.0
