@@ -13,6 +13,9 @@ There are three groups of users:
   b) VIP customers who spent more than $500 or placed 50 orders as registered customers, whichever comes first, in addition to the actions of registered customers, will receive 10% discount off their ordinary orders, have access to specially developed dishes, and their complaints/compliments are weighted twice as heavily as ordinary ones.
 3. Surfers: Who can browse the menus and ratings only, can apply to be the registered customers with fixed amount of deposit money and are checked by the manager.
 
+# How to use
+This program runs on the Python Django framework. Therefore, to run it you must have django installed and execute the command "python restorabd/manage.py runserver", among any other steps necessary to run a Django program such as creating a superuser.
+
 # System Features
 1. Provide a GUI, not necessarily web-based, with pictures to show the components and descriptions of each dish and price; each registered customer/VIP has a password to login. When they log in, based on the history of their prior choices, different registered customer/VIP will have different top 3 listing dishes. For new customers or surfers, the top 3 most popular (ordered most) dishes and top 3 highest rated dishes are listed on the page.
 2. The chef whose dishes received consistently low ratings or 3 complaints, or no order at all for 3 days, will be demoted (less salary), a chef demoted twice is fired. Conversely, a dish whose dishes received high ratings or 3 compliments, will be promoted (higher salary). One compliment can be used to cancel one complaint. The delivery people are handled the same way.
