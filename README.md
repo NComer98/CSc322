@@ -1,4 +1,42 @@
-# CSc322 Project by Sahrina Bhuiyan, Fnu Palak, Hope Dunner, and Nicholas Comer
+# README
+
+Project by: Sahrina Bhuiyan, Fnu Palak, Hope Dunner, Nicholas Comer
+Contact us at: sahrina.bhuiyan12@gmail.com
+
+Downloads required: 
+We used Visual Studio Code for our project
+
+Install python first, from official site
+_________________________
+
+Run these on CMD after installing python:
+
+pip install Django==3.1.4
+
+pip install Pillow
+
+pip install pytz
+
+pip install sqlparse
+
+___________________________
+Once everything is set, open the project and write the commands:
+
+cd restorabd
+
+python3 manage.py migrate
+
+python3 manage.py createsuperuser
+
+Here you have to create a username, enter an email address, and a password
+
+If you want to bypass creating an account you are given [y/n] option so choose y
+
+python3 manage.py runserver
+
+Here you are given the website so open the website and you can login and place your orders as the customer
+
+The given website + \admin will take you to the admin page where you can login as the admin and control the restaurant. You are able to add/delete menu, staff, reviews and everything else there. 
 
 # Specs
 An online restaurant order and delivery system was developed so that the restaurant provided menus of food, customers browsed and ordered food from the menu, and delivery people of the restaurant delivered the food.
