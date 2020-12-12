@@ -26,6 +26,7 @@ This program runs on the Python Django framework. Therefore, to run it you must 
 7. Customers who are kicked out of the system or choose to quit the system will be handled by the manager: clear the deposit and close the account.
 8. The chef is the one who puts in the description and keywords for people to search and browse. The average ratings for each food/dish by customers are available for all.
 9. The manager keeps a taboo list of words, any customer who uses those taboo words will receive one warning automatically and the words are replaced by ***, a message with more than 3 taboo words are blocked automatically.
+10. A notification system that informs users of the status of their orders.
 
 # Screenshots
 ![Alt text](/ss/home1.png?raw=true)
