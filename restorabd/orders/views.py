@@ -137,7 +137,9 @@ def newOrder_view(request):
 		else:
 			order.cost = cart.total - _discount
 		order.discount = _discount
+		messages.warning(request, "order is saved")
 		order.save()
+
 		# SEND NOTIFICATION
 		if account != None:
 			notification 		 = Notification()

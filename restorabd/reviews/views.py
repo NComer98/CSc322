@@ -49,10 +49,11 @@ def create_view(request):
 			if review.title == '':
 				msg = "Title field is requried."
 			else:
+				review.save()
 				ck = updateRestaurantReview(review.restaurant, review)
 				if ck == True:
 					msg = 'Review has been saved.'
-					review.save()
+					
 				else:
 					msg = 'Something went wrong'
 		else:
